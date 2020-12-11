@@ -9,12 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var text1: UITextField!
+    @IBOutlet weak var text2: UITextField!
+    
+    @IBOutlet weak var text3: UITextField!
+    @IBOutlet weak var textAnswer: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.backgroundColor = .lightGray
     }
 
-
+    @IBAction func calcButton(_ sender: Any) {
+    }
+    
 }
 
